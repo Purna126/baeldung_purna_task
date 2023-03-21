@@ -19,7 +19,6 @@ public class GoogleSheetsReadUpdateTest {
     private static final String SPREADSHEET_ID = "1GItiL_r3A8f5DW_cq9hxvl8-nJ9E-qOm7IJMMIoUMxs";
 
     public static void main(String... args) throws GeneralSecurityException, IOException {
-        //GoogleSheetsReadUpdate.readSpreadSheetData();
         final String range = "A:E"; //
         sheetsService = SheetServiceUtil.getSheetsService();
         System.out.println("sheetsService:::" + sheetsService);
